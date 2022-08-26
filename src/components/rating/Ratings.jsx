@@ -2,14 +2,22 @@ import React, { useState } from "react";
 import "./ratings.css";
 import { FaStar } from "react-icons/fa";
 
+// ***************************************************
+// Question:
+// To create a rating component
+// ***************************************************
+
 const Ratings = () => {
+  // Object that has the colors hex code(value) assigned to their keys
   const colors = {
     inactive: "#000",
     active: "#FFA500",
   };
 
+  // State 'value' defined with initial value set to 0
   const [value, setValue] = useState(0);
 
+  // Function that sets the state of value to whatever the value is passed in
   const clickHandler = (value) => {
     setValue(value);
   };
