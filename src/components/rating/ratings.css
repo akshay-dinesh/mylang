@@ -1,0 +1,11 @@
+.container-ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  font-size: 100px;
+  cursor: pointer;
+}
